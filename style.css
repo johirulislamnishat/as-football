@@ -279,6 +279,7 @@ body{
     /* highlight  */
 
     .highlight{
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -287,9 +288,11 @@ body{
         margin-left: 15px;
 
     }
+    .highlight-text-area{
+        width: 100%;
+    }
     .highlight h1{
         font-size: 30px;
-        text-align: center
     }
     .highlight img{
         margin-top: 30px;
